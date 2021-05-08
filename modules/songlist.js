@@ -1,0 +1,39 @@
+export var fastSongsList = [
+    ["Power of Your Love", "https://www.youtube.com/embed/KXXqNmAbR1E"],
+    ["Shine Jesus Shine", "https://www.youtube.com/embed/GbLHex0QFB8"],
+    ["God Is Enough", "https://www.youtube.com/embed/hc-9NZJI6w4"],
+    ["Open The Eyes Of My Heart", "https://www.youtube.com/embed/pkNs17tvM8U"],
+    ["Redeeming Love", "https://www.youtube.com/embed/_ap1QdIIaKU"],
+    ["We'll Be Faithful", "https://www.youtube.com/embed/tfW9sqf7xpI"],
+    ["Psalm 100", "https://www.youtube.com/embed/8_c3MsF8fas"],
+    ["Let The Fire Fall", "https://www.youtube.com/embed/nnPdljKOdo0"],
+    ["You Are My Delight", "https://www.youtube.com/embed/Auxd7vsGPWk"],
+    ["Behold", "https://www.youtube.com/embed/TwPxil7vzAA"],
+    ["Blessing and Glory", "https://www.youtube.com/embed/i7J6S2TdWhM"],
+    ["Grateful", "https://www.youtube.com/embed/ST4BikSk5Fc"],
+    ["Prepare The Way", "https://www.youtube.com/embed/8_Sj853SIsU"],
+    ["Magnificat", "https://www.youtube.com/embed/w5w64I1NeXQ"],
+    ["To Love You And To Make You Love", "https://www.youtube.com/embed/SVoZMh8Nb8M"],
+    ["Whom Shall I Fear", "https://www.youtube.com/embed/7Q1L0qYQvIY"],
+    ["Fight The Good Fight Of Faith", "https://www.youtube.com/embed/8xgQfmlShB0"],
+    ["By Your Side", "https://www.youtube.com/embed/gB1GJXSbCGI"],
+    ["Sure Foundation", "https://www.youtube.com/embed/lpD1AIknXao"],
+    ["My Life Is In You Lord", "https://www.youtube.com/embed/oH1niwYVHZs"],
+    ["Lord I Life Your Name On High", "https://www.youtube.com/embed/ug28lEOw6n8"],
+    ["Isaiah 60", "https://www.youtube.com/embed/hiSC7jSzEDM"]
+]
+
+export var slowSongsList = [
+    ["Make My Heart Your Dwelling Place", "https://www.youtube.com/embed/WvTZ4fxdaCo"],
+    ["Breath", "https://www.youtube.com/embed/oEDYnxTgNdo"],
+    ["God Will Make A Way", "https://www.youtube.com/embed/JDdayURcbn4"],
+    ["Heaven", "https://www.youtube.com/embed/ehoOO8QwkHg"],
+    ["I Give My All", "https://www.youtube.com/embed/2qBGkZYcsAk"],
+    ["Create In Me", "https://www.youtube.com/embed/lKjkZyD1Pjg"],
+    ["Let Us Exalt His Name Together", "https://www.youtube.com/embed/q0mRbIx8uM0"],
+    ["God Alone", "https://www.youtube.com/embed/l_YzbXAWIwI"],
+    ["You Are Near", "https://www.youtube.com/embed/LAjbc5OP9j0"],
+    ["The Heart Of Worship", "https://www.youtube.com/embed/WaIlq1ulHiU"],
+    ["Lord Jesus We Enthrone You", "https://www.youtube.com/embed/j9vXLsnCH54"],
+    ["I Offer My Life", "https://www.youtube.com/embed/E815nPVsrO0"]
+]

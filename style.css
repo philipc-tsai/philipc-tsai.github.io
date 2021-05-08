@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
     background-color:white; 
+    font-family: Raleway, sans-serif;
+    color:white;
 }
 
 header {
@@ -7,7 +11,6 @@ header {
     width:99vw;
     top:0px;
     background-color:#1A315B;
-    color:white;
     text-align:center;
     height:2em;
     z-index:2;
@@ -16,7 +19,7 @@ header {
 
 nav {
     position:relative;
-    top:10vh;
+    top:63px;
     width:100%;
     display: flex;
     text-align:center;
@@ -28,8 +31,8 @@ nav ul {
     height:50vh;
     width:50%;
     flex-wrap:wrap;
-    justify-content:space-between;
-    overflow:scroll;
+    justify-content:space-around;
+    overflow:auto;
 }
 
 nav ul h2 {
@@ -38,47 +41,49 @@ nav ul h2 {
 
 nav ul li {
     display:flex;
-    width:52%;
-    height:auto;
-    margin-left:-5%;  
+    width:22vw;
+    height:auto;  
     flex-wrap:wrap; 
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size:20px;
 }
 
 .song {
-    width:150px;
+    width:11vw;
+    text-align:center;
 }
 
 #slow-songs {
-    color:white;
-    background-color:#bf4015;
+    background-color:#4e3e59;
 }
 
 #fast-songs {
-    color:white;
     background-color:#114d61;
 }
 
 button {
     margin-left:2%;
-    margin-right:2%;
     height:2em;
-    background-color:#1A315B;
-    color:white;
+    font-family:Raleway, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
 }
 
-.firstButton {
+.firstButton,
+#first_iframe {
     color:black;
     background-color:#00BBF9;
 }
 
-.secondButton {
+.secondButton,
+#second_iframe {
     color:black;
     background-color:#FEE440;
 }
 
-.thirdButton {
+.thirdButton,
+#third_iframe {
     color:black;
     background-color:#F15BB5;
 }
@@ -90,7 +95,7 @@ button {
     text-align:center;
     justify-content:center;
     height:35%;
-    margin-top:5%;
+    margin-top:4%;
     background-color:#1A315B;
 }
 
@@ -102,14 +107,5 @@ iframe {
     height:30vh;    
 }
 
-#first_iframe {
-    background-color:#00BBF9;
-}
 
-#second_iframe {
-    background-color:#FEE440;
-}
 
-#third_iframe {
-    background-color:#F15BB5;
-}

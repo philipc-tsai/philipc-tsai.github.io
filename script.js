@@ -1,20 +1,27 @@
-const firstFrame = document.querySelector("#first_iframe");
-const secondFrame = document.querySelector("#second_iframe");
-const thirdFrame = document.querySelector("#third_iframe");
-
-/*
-var fastSongsList = ["Power of Your Love","Shine Jesus Shine","God Is Enough","Power of Your Love","Shine Jesus Shine","God Is Enough",
-"Power of Your Love","Shine Jesus Shine","God Is Enough","Power of Your Love","Blessing and Glory","Sure Foundation"];
-var slowSongsList = ["Make My Heart Your Dwelling Place","Breath","God Will Make a Way","Heaven","I Give My All","Create In Me",
-"Make My Heart Your Dwelling Place","Breath","God Will Make a Way","Heaven","I Give My All","Create In Me"];
-*/
-
 var fastSongsList = [
     ["Power of Your Love", "https://www.youtube.com/embed/KXXqNmAbR1E"],
     ["Shine Jesus Shine", "https://www.youtube.com/embed/GbLHex0QFB8"],
     ["God Is Enough", "https://www.youtube.com/embed/hc-9NZJI6w4"],
-    ["Open The Eyes Of My Heart", "https://www.youtube.com/embed/pkNs17tvM8U"]
-
+    ["Open The Eyes Of My Heart", "https://www.youtube.com/embed/pkNs17tvM8U"],
+    ["Redeeming Love", "https://www.youtube.com/embed/_ap1QdIIaKU"],
+    ["We'll Be Faithful", "https://www.youtube.com/embed/tfW9sqf7xpI"],
+    ["Psalm 100", "https://www.youtube.com/embed/8_c3MsF8fas"],
+    ["Let The Fire Fall", "https://www.youtube.com/embed/nnPdljKOdo0"],
+    ["You Are My Delight", "https://www.youtube.com/embed/Auxd7vsGPWk"],
+    ["Behold", "https://www.youtube.com/embed/TwPxil7vzAA"],
+    ["Blessing and Glory", "https://www.youtube.com/embed/i7J6S2TdWhM"],
+    ["Grateful", "https://www.youtube.com/embed/ST4BikSk5Fc"],
+    ["Prepare The Way", "https://www.youtube.com/embed/8_Sj853SIsU"],
+    ["Magnificat", "https://www.youtube.com/embed/w5w64I1NeXQ"],
+    ["To Love You And To Make You Love", "https://www.youtube.com/embed/SVoZMh8Nb8M"],
+    ["Whom Shall I Fear", "https://www.youtube.com/embed/7Q1L0qYQvIY"],
+    ["Fight The Good Fight Of Faith", "https://www.youtube.com/embed/8xgQfmlShB0"],
+    ["By Your Side", "https://www.youtube.com/embed/gB1GJXSbCGI"],
+    ["Sure Foundation", "https://www.youtube.com/embed/lpD1AIknXao"],
+    ["My Life Is In You Lord", "https://www.youtube.com/embed/oH1niwYVHZs"],
+    ["Lord I Life Your Name On High", "https://www.youtube.com/embed/ug28lEOw6n8"],
+    ["Isaiah 60", "https://www.youtube.com/embed/hiSC7jSzEDM"],
+    ["Ablaze", "https://www.youtube.com/embed/JHhnw5D9NJQ"]
 ]
 
 var slowSongsList = [
@@ -23,9 +30,19 @@ var slowSongsList = [
     ["God Will Make A Way", "https://www.youtube.com/embed/JDdayURcbn4"],
     ["Heaven", "https://www.youtube.com/embed/ehoOO8QwkHg"],
     ["I Give My All", "https://www.youtube.com/embed/2qBGkZYcsAk"],
-    ["Create In Me", "https://www.youtube.com/embed/lKjkZyD1Pjg"]
-
+    ["Create In Me", "https://www.youtube.com/embed/lKjkZyD1Pjg"],
+    ["Let Us Exalt His Name Together", "https://www.youtube.com/embed/q0mRbIx8uM0"],
+    ["God Alone", "https://www.youtube.com/embed/l_YzbXAWIwI"],
+    ["You Are Near", "https://www.youtube.com/embed/LAjbc5OP9j0"],
+    ["The Heart Of Worship", "https://www.youtube.com/embed/WaIlq1ulHiU"],
+    ["Lord Jesus We Enthrone You", "https://www.youtube.com/embed/j9vXLsnCH54"],
+    ["I Offer My Life", "https://www.youtube.com/embed/E815nPVsrO0"],
+    ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"]
 ]
+
+const firstFrame = document.querySelector("#first_iframe");
+const secondFrame = document.querySelector("#second_iframe");
+const thirdFrame = document.querySelector("#third_iframe");
 
 fastSongsList.sort();
 slowSongsList.sort();
@@ -63,74 +80,20 @@ const slowSongs = document.querySelector("#slow-songs").querySelectorAll("li");
 
 function changeVideo(song, frame) {
 
-    for (i = 0; i < fastSongsList.length; i++) {
+        for (i = 0; i < fastSongsList.length; i++) {
         
-        if (fastSongsList[i][0] == song) {
-            frame.setAttribute("src", fastSongsList[i][1]);
-            break;
-        } 
-    };
-
-    for (i = 0; i < slowSongsList.length; i++) {
+            if (fastSongsList[i][0] == song) {
+                frame.setAttribute("src", fastSongsList[i][1]);
+                break;
+            } 
+        };
+        for (i = 0; i < slowSongsList.length; i++) {
         
-        if (slowSongsList[i][0] == song) {
-            frame.setAttribute("src", slowSongsList[i][1]);
-            break;
-        } 
-    };
-
-/*
-    switch(song) {
-        case "Power of Your Love": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/KXXqNmAbR1E");
-            break;
-        }
-        case "Make My Heart Your Dwelling Place": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/WvTZ4fxdaCo");
-            break;
-        }
-        case "Breath": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/oEDYnxTgNdo");
-            break;
-        }
-        case "Shine Jesus Shine": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/GbLHex0QFB8");
-            break;
-        }
-        case "God Will Make A Way": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/JDdayURcbn4");
-            break;
-        }
-        case "Heaven": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/ehoOO8QwkHg");
-            break;
-        }
-        case "Open The Eyes Of My Heart": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/pkNs17tvM8U");
-            break;
-        }
-        case "God Is Enough": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/hc-9NZJI6w4");
-            break;
-        }
-        case "I Give My All": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/2qBGkZYcsAk");
-            break;
-        }
-        case "Create In Me": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/lKjkZyD1Pjg");
-            break;
-        }
-        case "Breath": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/oEDYnxTgNdo");
-            break;
-        }
-        case "ShineJesus": {
-            frame.setAttribute("src", "https://www.youtube.com/embed/GbLHex0QFB8");
-            break;
-        }
-    }
-    */
+            if (slowSongsList[i][0] == song) {
+                frame.setAttribute("src", slowSongsList[i][1]);
+                break;
+            } 
+        };
 }
 
 function createButtons(tempo) {
