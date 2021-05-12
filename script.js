@@ -37,7 +37,9 @@ var slowSongsList = [
     ["The Heart Of Worship", "https://www.youtube.com/embed/WaIlq1ulHiU"],
     ["Lord Jesus We Enthrone You", "https://www.youtube.com/embed/j9vXLsnCH54"],
     ["I Offer My Life", "https://www.youtube.com/embed/E815nPVsrO0"],
-    ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"]
+    ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"],
+    ["Change My Heart Oh God", "https://www.youtube.com/embed/hDsn46r6CSs"],
+    ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"]
 ]
 
 const firstFrame = document.querySelector("#first_iframe");
