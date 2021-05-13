@@ -116,9 +116,9 @@ function createButtons(tempo) {
         var secondButtonId = secondButtonElement.getAttribute("id");
         var thirdButtonId = thirdButtonElement.getAttribute("id");
     
-        firstButtonElement.innerText = "1st";
-        secondButtonElement.innerText = "2nd";
-        thirdButtonElement.innerText = "3rd";
+        firstButtonElement.innerText = "1";
+        secondButtonElement.innerText = "2";
+        thirdButtonElement.innerText = "3";
     
         tempo[i].appendChild(firstButtonElement);
         tempo[i].appendChild(secondButtonElement);
