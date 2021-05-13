@@ -31,7 +31,7 @@ nav ul {
     height:50vh;
     width:50%;
     flex-wrap:wrap;
-    justify-content:space-around;
+    justify-content:space-between;
     overflow:auto;
 }
 
