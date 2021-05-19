@@ -39,7 +39,8 @@ var slowSongsList = [
     ["I Offer My Life", "https://www.youtube.com/embed/E815nPVsrO0"],
     ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"],
     ["Change My Heart Oh God", "https://www.youtube.com/embed/hDsn46r6CSs"],
-    ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"]
+    ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"],
+    ["Salvation Belongs to Our God", "https://www.youtube.com/embed/3d0MZBWbAp0"]
 ]
 
 const firstFrame = document.querySelector("#first_iframe");
