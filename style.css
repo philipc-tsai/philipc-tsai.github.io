@@ -28,13 +28,10 @@ nav {
 
 nav ul {
     display:flex;
-    height:50vh;
+    height:25vh;
     width:50%;
     flex-wrap:wrap;
-    justify-content:space-between;
     overflow:auto;
-    justify-content: center;
-    align-items: center;
 }
 
 nav ul h2 {
@@ -43,11 +40,13 @@ nav ul h2 {
 
 nav ul li {
     display:flex;
-    width:50vw;
-    height:auto;  
-    flex-wrap:wrap; 
+    flex-direction: row;
+    width:20vw;
+    height:auto;   
     padding-top: 10px;
     font-size:20px;
+    margin-left: 10px;
+    align-items: center;
 }
 
 .song {
@@ -70,7 +69,7 @@ button {
     font-size:16px;
     font-weight:bold;
     text-align:center;
-    width: 10px;
+    width: 20px;
 }
 
 .firstButton,
@@ -109,6 +108,3 @@ iframe {
     width:30%;
     height:30vh;    
 }
-
-
-
