@@ -65,11 +65,7 @@ nav ul li {
 button {
     margin-left:2%;
     height:2em;
-    font-family:Raleway, sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    text-align:center;
-    width: 10px;
+    width: 5px;
 }
 
 .firstButton,
