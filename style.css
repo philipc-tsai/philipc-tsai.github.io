@@ -28,7 +28,7 @@ nav {
 
 nav ul {
     display:flex;
-    height:25vh;
+    height:50vh;
     width:50%;
     flex-wrap:wrap;
     overflow:auto;
