@@ -41,11 +41,14 @@ nav ul h2 {
 
 nav ul li {
     display:flex;
+    flex-direction: column;
     width:50vw;
     height:auto;  
     flex-wrap:wrap; 
     padding-top: 10px;
     font-size:20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .song {
