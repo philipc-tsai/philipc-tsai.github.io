@@ -44,7 +44,6 @@ var slowSongsList = [
     ["Change My Heart Oh God", "https://www.youtube.com/embed/hDsn46r6CSs"],
     ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"],
     ["Salvation Belongs to Our God", "https://www.youtube.com/embed/3d0MZBWbAp0"],
-    ["You Have Chosen Me", "https://www.youtube.com/embed/_hmBV-jfWWY"],
     ["Fearless", "https://www.youtube.com/embed/Z2dPfNmVObI"]
 ]
 
