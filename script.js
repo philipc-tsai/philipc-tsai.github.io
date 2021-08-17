@@ -21,7 +21,10 @@ var fastSongsList = [
     ["My Life Is In You Lord", "https://www.youtube.com/embed/oH1niwYVHZs"],
     ["Lord I Life Your Name On High", "https://www.youtube.com/embed/ug28lEOw6n8"],
     ["Isaiah 60", "https://www.youtube.com/embed/hiSC7jSzEDM"],
-    ["Ablaze", "https://www.youtube.com/embed/JHhnw5D9NJQ"]
+    ["Ablaze", "https://www.youtube.com/embed/JHhnw5D9NJQ"],
+    ["Psalm 95", "https://www.youtube.com/embed/hlwDBNgGLZM"],
+    ["Victory To Our King", "https://www.youtube.com/embed/qMTmYcIc5SE"],
+    ["Mission Ready", "https://www.youtube.com/embed/zcue8r4_7lE"],
 ]
 
 var slowSongsList = [
@@ -40,7 +43,9 @@ var slowSongsList = [
     ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"],
     ["Change My Heart Oh God", "https://www.youtube.com/embed/hDsn46r6CSs"],
     ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"],
-    ["Salvation Belongs to Our God", "https://www.youtube.com/embed/3d0MZBWbAp0"]
+    ["Salvation Belongs to Our God", "https://www.youtube.com/embed/3d0MZBWbAp0"],
+    ["You Have Chosen Me", "https://www.youtube.com/embed/_hmBV-jfWWY"],
+    ["Fearless", "https://www.youtube.com/embed/Z2dPfNmVObI"]
 ]
 
 const firstFrame = document.querySelector("#first_iframe");
