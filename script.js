@@ -25,6 +25,8 @@ var fastSongsList = [
     ["Psalm 95", "https://www.youtube.com/embed/hlwDBNgGLZM"],
     ["Victory To Our King", "https://www.youtube.com/embed/qMTmYcIc5SE"],
     ["Mission Ready", "https://www.youtube.com/embed/zcue8r4_7lE"],
+    ["Stand Firm", "https://www.youtube.com/embed/XxKlHhIpB4k"],
+    
 ]
 
 var slowSongsList = [
