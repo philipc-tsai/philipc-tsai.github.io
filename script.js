@@ -26,7 +26,8 @@ var fastSongsList = [
     ["Victory To Our King", "https://www.youtube.com/embed/qMTmYcIc5SE"],
     ["Mission Ready", "https://www.youtube.com/embed/zcue8r4_7lE"],
     ["Stand Firm", "https://www.youtube.com/embed/XxKlHhIpB4k"],
-    
+    ["Free to Dance", "https://www.youtube.com/embed/CJJ_TRbVZ3U"]
+
 ]
 
 var slowSongsList = [
@@ -46,7 +47,8 @@ var slowSongsList = [
     ["Change My Heart Oh God", "https://www.youtube.com/embed/hDsn46r6CSs"],
     ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"],
     ["Salvation Belongs to Our God", "https://www.youtube.com/embed/3d0MZBWbAp0"],
-    ["Fearless", "https://www.youtube.com/embed/Z2dPfNmVObI"]
+    ["Fearless", "https://www.youtube.com/embed/Z2dPfNmVObI"],
+    ["God in Me", "https://www.youtube.com/embed/dQyXysalHsc"]
 ]
 
 const firstFrame = document.querySelector("#first_iframe");
