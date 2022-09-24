@@ -1,0 +1,211 @@
+.PlaceholderNormal {
+    font-family: "Tahoma", sans-serif;
+    color: #000000;
+    font-size: 12.0px;
+    line-height: 1.21em;
+}
+
+.Placeholder-C {
+    font-family: "Tahoma", sans-serif;
+    font-style: italic;
+    color: #787878;
+    font-size: 11.0px;
+    line-height: 1.21em;
+}
+
+.Placeholder-C-C0 {
+    font-family: "Georgia", serif;
+    font-weight: 700;
+    color: #8d6e6f;
+    font-size: 21.0px;
+    line-height: 1.19em;
+}
+
+.Placeholder-C-C1 {
+    font-family: "Tahoma", sans-serif;
+    color: #8d6e6f;
+    font-size: 13.0px;
+    line-height: 1.23em;
+    text-align: justify;
+}
+
+.Placeholder-C-C2 {
+    font-family: "Arial", sans-serif;
+    color: #535353;
+    font-size: 11.0px;
+    line-height: 1.27em;
+}
+
+.Placeholder-C-C3 {
+    font-family: "Tahoma", sans-serif;
+    color: #b16a3c;
+    font-size: 13.0px;
+    line-height: 1.23em;
+}
+
+figcaption {
+    color: white;
+    max-width: 400px;
+    font-size: 10px;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0px;
+}
+
+figure {
+    position: relative;
+    float: left;
+}
+
+.speech-bubble {
+    position: relative;
+    background: #bfffa0;
+    border-radius: .4em;
+}
+
+    .speech-bubble:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top-color: #bfffa0;
+        border-bottom: 0;
+        border-left: 0;
+        margin-left: -10px;
+        margin-bottom: -20px;
+    }
+
+.highlighted-title {
+    font-weight: bolder;
+    background-color: #eeeeee;
+    text-shadow: 2px 2px 4px #777777;
+}
+
+.blacktext {
+    color: black;
+}
+
+.smalltexts {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 50px;
+    border-top: 0px;
+    font-family: Tahoma;
+    font-size: small;
+    line-height: 1.3;
+    color: black;
+    text-align: justify;
+}
+
+.regulartexts {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-top: 0px;
+    font-family: Tahoma;
+    font-size: small;
+    line-height: 1.3;
+    color: black;
+    text-align: justify;
+}
+
+.bigtext {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.mediumtext {
+    color: #666666;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.tinytext {
+    font-size: 8pt;
+    font-style: italic;
+    text-align: right;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-top: 0px;
+    line-height: 1.3;
+}
+
+.strongtext {
+    font-weight: bold;
+    color: black;
+}
+
+.event-title:hover {
+    font-size: larger;
+    line-height: 18pt;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #AAAAAA;
+}
+
+.roundcorners {
+    border-radius: 25px;
+}
+
+.img-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-title {
+    color: #111111;
+    text-shadow: 2px 2px 4px #777777;
+}
+
+.shadowedtext {
+    color: #111111;
+    text-shadow: 2px 2px 4px #777777;
+}
+
+.shadowedtitle {
+    color: #444444;
+    text-shadow: 2px 2px 4px #777777;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    line-height: 1.3;
+}
+
+.modal-body, .modal-header, .modal-footer, .modal-title {
+    color: #111111;
+}
+
+.newsHeader {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16pt;
+    font-style: italic;
+    border-bottom-style: solid;
+    border-bottom-color: #D3D3D3;
+    color: #734d26;
+    text-indent: 5px;
+}
+
+.alertBackground {
+    background: #ebf2cd; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #ebf2cd, #ffdfbf, #ebf2cd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ebf2cd, #ffdfbf, #ebf2cd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ebf2cd, #ffdfbf, #ebf2cd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ebf2cd, #ffdfbf, #ebf2cd); /* Standard syntax */
+}
+
+@keyframes alert01 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
