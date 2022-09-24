@@ -19,9 +19,15 @@ var fastSongsList = [
     ["By Your Side", "https://www.youtube.com/embed/gB1GJXSbCGI"],
     ["Sure Foundation", "https://www.youtube.com/embed/lpD1AIknXao"],
     ["My Life Is In You Lord", "https://www.youtube.com/embed/oH1niwYVHZs"],
-    ["Lord I Life Your Name On High", "https://www.youtube.com/embed/ug28lEOw6n8"],
+    ["Lord I Lift Your Name On High", "https://www.youtube.com/embed/ug28lEOw6n8"],
     ["Isaiah 60", "https://www.youtube.com/embed/hiSC7jSzEDM"],
-    ["Ablaze", "https://www.youtube.com/embed/JHhnw5D9NJQ"]
+    ["Ablaze", "https://www.youtube.com/embed/JHhnw5D9NJQ"],
+    ["Psalm 95", "https://www.youtube.com/embed/hlwDBNgGLZM"],
+    ["Victory To Our King", "https://www.youtube.com/embed/qMTmYcIc5SE"],
+    ["Mission Ready", "https://www.youtube.com/embed/zcue8r4_7lE"],
+    ["Stand Firm", "https://www.youtube.com/embed/XxKlHhIpB4k"],
+    ["Free to Dance", "https://www.youtube.com/embed/CJJ_TRbVZ3U"]
+
 ]
 
 var slowSongsList = [
@@ -37,7 +43,12 @@ var slowSongsList = [
     ["The Heart Of Worship", "https://www.youtube.com/embed/WaIlq1ulHiU"],
     ["Lord Jesus We Enthrone You", "https://www.youtube.com/embed/j9vXLsnCH54"],
     ["I Offer My Life", "https://www.youtube.com/embed/E815nPVsrO0"],
-    ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"]
+    ["You Have Chosen Me", "https://www.youtube.com/embed/r0ii9EFsci4"],
+    ["Change My Heart Oh God", "https://www.youtube.com/embed/hDsn46r6CSs"],
+    ["A New Commandment", "https://www.youtube.com/embed/eO_QhBXY_78"],
+    ["Salvation Belongs to Our God", "https://www.youtube.com/embed/3d0MZBWbAp0"],
+    ["Fearless", "https://www.youtube.com/embed/Z2dPfNmVObI"],
+    ["God in Me", "https://www.youtube.com/embed/dQyXysalHsc"]
 ]
 
 const firstFrame = document.querySelector("#first_iframe");
@@ -114,9 +125,9 @@ function createButtons(tempo) {
         var secondButtonId = secondButtonElement.getAttribute("id");
         var thirdButtonId = thirdButtonElement.getAttribute("id");
     
-        firstButtonElement.innerText = "1st";
-        secondButtonElement.innerText = "2nd";
-        thirdButtonElement.innerText = "3rd";
+        // firstButtonElement.innerText = "1";
+        // secondButtonElement.innerText = "2";
+        //  thirdButtonElement.innerText = "3";
     
         tempo[i].appendChild(firstButtonElement);
         tempo[i].appendChild(secondButtonElement);

@@ -31,7 +31,6 @@ nav ul {
     height:50vh;
     width:50%;
     flex-wrap:wrap;
-    justify-content:space-around;
     overflow:auto;
 }
 
@@ -41,15 +40,17 @@ nav ul h2 {
 
 nav ul li {
     display:flex;
-    width:22vw;
-    height:auto;  
-    flex-wrap:wrap; 
+    flex-direction: row;
+    width:20vw;
+    height:auto;   
     padding-top: 10px;
     font-size:20px;
+    margin-left: 10px;
+    align-items: center;
 }
 
 .song {
-    width:11vw;
+    width:20vw;
     text-align:center;
 }
 
@@ -64,10 +65,7 @@ nav ul li {
 button {
     margin-left:2%;
     height:2em;
-    font-family:Raleway, sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    text-align:center;
+    width: 5px;
 }
 
 .firstButton,
@@ -106,6 +104,3 @@ iframe {
     width:30%;
     height:30vh;    
 }
-
-
-
