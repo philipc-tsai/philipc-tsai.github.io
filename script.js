@@ -26,8 +26,9 @@ var fastSongsList = [
     ["Victory To Our King", "https://www.youtube.com/embed/qMTmYcIc5SE"],
     ["Mission Ready", "https://www.youtube.com/embed/zcue8r4_7lE"],
     ["Stand Firm", "https://www.youtube.com/embed/XxKlHhIpB4k"],
-    ["Free to Dance", "https://www.youtube.com/embed/CJJ_TRbVZ3U"]
-
+    ["Free to Dance", "https://www.youtube.com/embed/CJJ_TRbVZ3U"],
+    ["Worship the Lord", "https://www.youtube.com/embed/B4EqEU11ftI"],
+    ["Glory Glory Lord", "https://www.youtube.com/embed/KDyVbwX_NwQ"]
 ]
 
 var slowSongsList = [
